@@ -63,7 +63,7 @@ surface_reset_target();
 surface_set_target_ext(0, surfRender);
 surface_set_target_ext(1, surfScattering);
 
-draw_clear(1);
+draw_clear(c_white);
 
 projMatrix = matrix_build_projection_perspective_fov(pFov, 16/9, 1, 10000);
 viewMatrix = matrix_build_lookat(px, py, pz, px + (dcos(dy)*dcos(dx)), py + (dcos(dy)*dsin(dx)), pz + dsin(dy), 0, 0, 1);

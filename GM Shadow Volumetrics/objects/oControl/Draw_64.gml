@@ -10,4 +10,4 @@ shader_reset();
 draw_sprite(sCross, -1, 640, 360);
 
 //draw_text(20, 20, "X SUN: " + string(xF) + "\nY SUN: " + string(yF) + "\nZ SUN: " + string(zF) + "\nSUN: " + string(LVM));
-draw_text(20, 20, "Press SPACE to change the light direction");
+//draw_text(20, 20, "Press SPACE to change the light direction");
